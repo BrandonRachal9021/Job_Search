@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Xavier University of Louisiana</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav class="nav container">
+<div class="badge">My 4‑Page Site</div>
+<div>
+<a href="me.html">Me</a>
+<a href="xula.html">XULA</a>
+<a href="dillard.html">Dillard</a>
+<a href="other_university.html">Other University</a>
+</div>
+</nav>
+
+<main class="container stack">
+<header class="card stack center">
+<h1 class="title">Xavier University of Louisiana</h1>
+<p class="subtitle">Mission Statement</p>
+<img class="hero-image ring" src="images/xula.jpg" alt="XULA campus" />
+</header>
+
+<section class="card stack">
+<p>
+Xavier University of Louisiana, founded by Saint Katharine Drexel and the Sisters of the Blessed Sacrament, is Catholic and historically Black. The ultimate purpose of the University is to contribute to the promotion of a more just and humane society by preparing its students to assume roles of leadership and service in a global society. This preparation takes place in a diverse learning and teaching environment that incorporates all relevant educational means, including research and community service.
+</p>
+<p class="muted">
+Source:https://www.xula.edu/about/mission-values.html
+</p>
+</section>
+
+<footer class="footer">© <span id="year-x"></span> XULA page</footer>
+</main>
+<script>document.getElementById('year-x').textContent = new Date().getFullYear();</script>
+</body>
+</html>
