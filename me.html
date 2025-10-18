@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Me</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<nav class="nav container">
+<div class="badge">My 4‑Page Site</div>
+<div>
+<a href="me.html">Me</a>
+<a href="xula.html">XULA</a>
+<a href="dillard.html">Dillard</a>
+<a href="other_university.html">Other University</a>
+</div>
+</nav>
+
+<main class="container stack">
+<header class="card">
+<h1 class="title">Brandon Rachal</h1>
+<p class="subtitle">Student • Software Engineering • New Orleans, LA</p>
+<div class="split">
+<img class="avatar" src="images/me.jpg" alt="Photo of Brandon Rachal" />
+<div class="stack">
+<p>
+Hi! I’m Brandon, a CIS student at <span class="accent">Xavier University of Louisiana</span> who enjoys
+building useful software, analyzing data, and designing clean UIs.
+</p>
+<p class="muted">GitHub: <a class="link" href="https://github.com/brandonrachal9021">brandonrachal9021</a> •
+Email: <a class="link" href="mailto:brachal@xula.edu">brachal@xula.edu</a></p>
+<a class="btn" href="me.html#bio">Jump to Bio</a>
+</div>
+</div>
+</header>
+
+<section id="bio" class="card stack">
+<h2 class="title">Brief Bio</h2>
+<p>
+I focus on practical engineering projects—Java and Python for data pipelines, a dash of front‑end for dashboards,
+and lots of iteration. Outside class, I explore UI/UX and contribute to open‑source projects.
+</p>
+<img class="hero-image" src="images/me.jpg" alt="Banner crop of Brandon's picture" />
+</section>
+
+<footer class="footer">© <span id="year"></span> Brandon Rachal</footer>
+</main>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
